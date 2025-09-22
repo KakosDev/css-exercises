@@ -1,1 +1,4 @@
-/* Add CSS Styling */
+.odd-no-element {
+    background-color: rgb(255, 182, 193);
+    font-family: "Vedana", "DejaVu Sans", "sans-serif" ;
+}
