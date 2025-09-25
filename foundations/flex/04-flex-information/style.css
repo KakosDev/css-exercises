@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -9,6 +10,10 @@ body {
   display: flex;
   justify-content: center;
   gap: 52px;
+}
+
+.imagetext {
+  max-width: 200px;
 }
 
 img {
