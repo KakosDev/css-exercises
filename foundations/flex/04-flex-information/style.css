@@ -2,6 +2,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 32px;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -19,7 +20,6 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
-  gap: 32px;
 }
 
 /* do not edit this footer */
