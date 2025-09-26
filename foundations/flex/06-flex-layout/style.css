@@ -9,6 +9,11 @@ body {
   flex-direction: column;
 }
 
+/* adding disply: flex; to body moves all elements
+  in the body horizontally next to each other. Adding
+  the flex-direction: column; changes the items from 
+  horizontal to vertical. */
+
 img {
   width: 600px;
 }
