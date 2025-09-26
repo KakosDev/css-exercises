@@ -62,3 +62,10 @@ a {
   padding: 16px;
   width: 300px;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 48px;
+}
