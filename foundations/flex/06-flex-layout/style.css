@@ -48,3 +48,13 @@ input {
   flex-direction to stack content back on top of each
   other instead of next to each other and gap to give
   space between elements in content. */
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* To change the links color use color on <a> (or
+  whatever selector is used for link). The text-
+  decoration: none; will remove the line from under
+  the link. */
