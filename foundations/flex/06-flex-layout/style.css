@@ -72,3 +72,9 @@ a {
  will push the left-links to left side of page and the 
  right-links to the right side of page. Add padding to push
  the links away from the edge of the page. */
+
+.footer {
+  background: #eee;
+}
+
+/* Added backgroung color to footer only. */
