@@ -78,3 +78,19 @@ a {
 }
 
 /* Added backgroung color to footer only. */
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+/* Added display flex to <ul> so the text with left-links 
+ and right links would set next to each other instead of 
+ stacked on top of each other. list-style: none; removes
+ bullet points from ul. margin and padding 0 removes the 
+ margin and padding from the text so that its not so far 
+ from the edge of the page. Adding the gap gives space 
+ between the two words in all four corners. /*
