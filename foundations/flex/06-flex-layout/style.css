@@ -9,7 +9,7 @@ body {
   flex-direction: column;
 }
 
-/* adding disply: flex; to body moves all elements
+/* Adding disply: flex; to body moves all elements
   in the body horizontally next to each other. Adding
   the flex-direction: column; changes the items from 
   horizontal to vertical. */
@@ -33,3 +33,18 @@ input {
   width: 400px;
 }
 
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Using flex: 1; pushes everything on page apart
+  the header will be at top, the footer at bottom 
+  and content in the center with justify and align.
+  flex-direction to stack content back on top of each
+  other instead of next to each other and gap to give
+  space between elements in content. */
