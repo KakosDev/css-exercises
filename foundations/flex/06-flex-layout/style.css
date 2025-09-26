@@ -58,3 +58,17 @@ a {
   whatever selector is used for link). The text-
   decoration: none; will remove the line from under
   the link. */
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+/* Adding diplay: flex; to header and footer moves the
+ right-links to the right side of left-links (horizontal
+ orientation), then adding justify-content: space-between;
+ will push the left-links to left side of page and the 
+ right-links to the right side of page. Add padding to push
+ the links away from the edge of the page. */
