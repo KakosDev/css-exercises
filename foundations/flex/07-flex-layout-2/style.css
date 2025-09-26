@@ -52,11 +52,13 @@ li {
 a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  width: 300px;
 }
